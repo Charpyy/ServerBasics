@@ -15,6 +15,6 @@ Open the config file on plugins/serverbasics/config.yml
 
 This plugin is under developpement and need improvement
 
-**Contact**
-for any issue or devlogs, join the discord server
-discord: https://discord.gg/w8g7cDAjNT
+**Contact**:
+- for any issue or devlogs, join the discord server
+- discord: https://discord.gg/w8g7cDAjNT
