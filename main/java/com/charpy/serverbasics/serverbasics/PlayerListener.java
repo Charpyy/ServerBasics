@@ -31,8 +31,9 @@ public class PlayerListener implements Listener {
             Bukkit.broadcastMessage(firstJoinMessage);
             ItemStack[] kitItems = (ItemStack[]) plugin.getConfig().get("kitItems");
             if (kitItems != null) {
+                String defaultKitMessage = plugin.getConfig().getString("defaultKitMessage");
                 player.getInventory().setContents(kitItems);
-                player.sendMessage("§8» §6Server Basics §8« §fYou received the default kit!");
+                player.sendMessage(defaultKitMessage);
             }
         }
     }

@@ -4,4 +4,5 @@
 firstJoinMessage: "§8» §4YourServer §8« §cWelcome to §6%player% §c for his first time on the server"
 joinMessage: "§7[§2+§7] §8%player%"
 quitMessage: "§7[§4-§7] §8%player%"
+defaultKitMessage: "§8» §6Server Basics §8« §fYou received the default kit!"
 kitItems: ""
