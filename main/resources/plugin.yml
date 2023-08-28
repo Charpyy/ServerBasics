@@ -1,0 +1,12 @@
+name: Serverbasics
+version: '${project.version}'
+main: com.charpy.serverbasics.serverbasics.Serverbasics
+commands:
+  sb:
+    description: Commande principale de ServerBasics
+    usage: /<command> [reload, help]
+    permission: serverbasics.admin
+  sbkit:
+    description: Commande principale de ServerBasics
+    usage: /<command> [create, delete, edit]
+    permission: serverbasics.kit
